@@ -1,0 +1,5 @@
+{
+  "name": "cross-section-chat",
+  "version": "0.1.0",
+  "description": "Permite que sesiones de Claude se envíen mensajes entre sí con /to, y avisa al recibirlos."
+}

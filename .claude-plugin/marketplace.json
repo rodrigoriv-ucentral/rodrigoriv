@@ -1,0 +1,11 @@
+{
+  "name": "rodrigoriv",
+  "owner": { "name": "rodrigoriv-ucentral" },
+  "plugins": [
+    {
+      "name": "cross-section-chat",
+      "source": "./mods/cross-section-chat",
+      "description": "Permite que sesiones de Claude se envíen mensajes entre sí con /to."
+    }
+  ]
+}
