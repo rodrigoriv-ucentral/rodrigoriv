@@ -10,6 +10,26 @@ En cada sesión o equipo donde quieras usarlo:
 /plugin install cross-section-chat --marketplace rodrigoriv-ucentral/rodrigoriv
 ```
 
+## Prompt para que Claude lo instale
+
+Pega esto en cada sesión de Claude que quieras conectar. Hazlo en cada una: cada sesión debe tener el mod instalado.
+
+```
+Instala el mod cross-section-chat del repo https://github.com/rodrigoriv-ucentral/rodrigoriv
+(carpeta mods/cross-section-chat, marketplace "rodrigoriv").
+Si /plugin install está disponible, usa:
+/plugin install cross-section-chat --marketplace rodrigoriv-ucentral/rodrigoriv
+Cuando termine, dime el comando exacto que usaste, ejecuta /sesion y dame el id
+de esta sesión (session_...) para pasárselo a las otras sesiones.
+No modifiques otros archivos ni configuraciones.
+```
+
+Para enviar un mensaje a otra sesión de tu cuenta:
+
+```
+Usa /to <id-o-nombre-de-la-otra-sesion> <mensaje>
+```
+
 ## Uso
 
 1. En la sesión que va a recibir, ejecuta `/sesion` para ver su id (`session_...`).
